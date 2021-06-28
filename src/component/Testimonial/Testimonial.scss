@@ -1,0 +1,107 @@
+.Testimonial {
+  height: auto;
+  padding: 64px 24px 86px 24px;
+
+  @media only screen and (min-width: 700px) {
+    height: 777px;
+    padding: 160px 10%;
+  }
+
+  h5 {
+    font-family: var(--font-fraunces);
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 5px;
+    color: #a7aaad;
+    margin-bottom: 64px;
+    text-align: center;
+
+    @media only screen and (min-width: 700px) {
+      margin-bottom: 81px;
+    }
+  }
+
+  .container {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+
+    @media only screen and (min-width: 700px) {
+      height: 457px;
+      flex-direction: row;
+    }
+
+    .col {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+
+      &:not(:last-child) {
+        margin: 0 0 64px 0;
+
+        @media only screen and (min-width: 700px) {
+          margin: 0 30px 0 0;
+        }
+      }
+
+      .picture {
+        width: 72px;
+        height: 74px;
+        border-radius: 50%;
+        margin-bottom: 32px;
+
+        &.first {
+          background: url("../../images/image-emily.jpg");
+          background-size: cover;
+        }
+
+        &.second {
+          background: url("../../images/image-thomas.jpg");
+          background-size: cover;
+        }
+
+        &.third {
+          background: url("../../images/image-jennie.jpg");
+          background-size: cover;
+        }
+
+        @media only screen and (min-width: 700px) {
+          margin-bottom: 58px;
+        }
+      }
+
+      p.text {
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 32px;
+        letter-spacing: -0.128571px;
+        color: #5b636d;
+        margin-bottom: 32px;
+
+        @media only screen and (min-width: 700px) {
+          margin-bottom: 69px;
+        }
+      }
+
+      span.author {
+        font-family: var(--font-fraunces);
+        font-weight: 900;
+        font-size: 18px;
+        line-height: 22px;
+        letter-spacing: -0.128571px;
+        color: #24303e;
+        margin-bottom: 9px;
+      }
+
+      span.role {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 25px;
+        letter-spacing: -0.1px;
+        color: #a7aaad;
+      }
+    }
+  }
+}

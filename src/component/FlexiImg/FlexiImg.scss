@@ -1,0 +1,44 @@
+.FlexiImg {
+  .row {
+    display: grid;
+    grid-template-columns: auto auto;
+
+    @media only screen and (min-width: 700px) {
+      display: flex;
+    }
+
+    .col {
+      height: 188px;
+      width: 100%;
+
+      &.col-1 {
+        background: url("../../images/desktop/image-gallery-milkbottles.jpg");
+        background-size: cover;
+        background-position: center;
+      }
+
+      &.col-2 {
+        background: url("../../images/desktop/image-gallery-orange.jpg");
+        background-size: cover;
+        background-position: center;
+      }
+
+      &.col-3 {
+        background: url("../../images/desktop/image-gallery-cone.jpg");
+        background-size: cover;
+        background-position: center;
+      }
+
+      &.col-4 {
+        background: url("../../images/desktop/image-gallery-sugarcubes.jpg");
+        background-size: cover;
+        background-position: center;
+      }
+
+      @media only screen and (min-width: 700px) {
+        height: 447px;
+        width: 25%;
+      }
+    }
+  }
+}

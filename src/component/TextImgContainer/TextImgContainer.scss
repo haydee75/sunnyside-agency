@@ -1,0 +1,118 @@
+.TextImgContainer {
+  display: flex;
+  flex-direction: column-reverse;
+  text-align: center;
+
+  @media only screen and (min-width: 950px) {
+    flex-direction: row;
+    text-align: left;
+  }
+
+  .image {
+    background: url("../../images/desktop/image-transform.jpg");
+  }
+
+  &.direction-right {
+    .image {
+      background: url("../../images/desktop/image-stand-out.jpg");
+    }
+    @media only screen and (min-width: 950px) {
+      flex-direction: row-reverse;
+    }
+  }
+
+  .content-box,
+  .image-box {
+    width: 100%;
+    height: 437px;
+
+    @media only screen and (min-width: 950px) {
+      width: 50%;
+      height: 600px;
+    }
+
+    .image {
+      width: 100%;
+      height: 100%;
+      background-position: center;
+      background-size: cover;
+    }
+  }
+
+  .content-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 64px 24px;
+
+    @media only screen and (min-width: 950px) {
+      padding: 0;
+    }
+
+    .box {
+      width: 327px;
+      height: 309px;
+
+      @media only screen and (min-width: 950px) {
+        width: 445px;
+        height: 285px;
+      }
+    }
+  }
+
+  .image-box {
+    @media only screen and (max-width: 950px) {
+      height: 312px;
+    }
+  }
+}
+
+.ImgContainer {
+  display: flex;
+
+  @media only screen and (max-width: 950px) {
+    flex-direction: column;
+  }
+
+  .box {
+    width: 50%;
+    height: 600px;
+
+    @media only screen and (max-width: 950px) {
+      width: 100%;
+    }
+
+    .image {
+      width: 100%;
+      height: 100%;
+
+      display: flex;
+      align-items: flex-end;
+      justify-content: center;
+      text-align: center;
+
+      &.first {
+        background: url("../../images/desktop/image-graphic-design.jpg");
+        background-position: center;
+      }
+
+      &.second {
+        background: url("../../images/desktop/image-photography.jpg");
+        background-position: center;
+      }
+
+      .content {
+        width: 339px;
+        height: 143px;
+        margin-bottom: 59px;
+
+        p {
+          font-size: 16px;
+          line-height: 27px;
+          letter-spacing: -0.114286px;
+          color: #000;
+        }
+      }
+    }
+  }
+}
