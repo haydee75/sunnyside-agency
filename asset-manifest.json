@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/sunnyside-agency/static/css/main.3d9c3a20.chunk.css",
+    "main.css": "/sunnyside-agency/static/css/main.5ed16311.chunk.css",
     "main.js": "/sunnyside-agency/static/js/main.e168de0f.chunk.js",
     "main.js.map": "/sunnyside-agency/static/js/main.e168de0f.chunk.js.map",
     "runtime-main.js": "/sunnyside-agency/static/js/runtime-main.5ea9a727.js",
@@ -10,17 +10,17 @@
     "static/js/3.35a35b1c.chunk.js": "/sunnyside-agency/static/js/3.35a35b1c.chunk.js",
     "static/js/3.35a35b1c.chunk.js.map": "/sunnyside-agency/static/js/3.35a35b1c.chunk.js.map",
     "index.html": "/sunnyside-agency/index.html",
-    "static/css/main.3d9c3a20.chunk.css.map": "/sunnyside-agency/static/css/main.3d9c3a20.chunk.css.map",
+    "static/css/main.5ed16311.chunk.css.map": "/sunnyside-agency/static/css/main.5ed16311.chunk.css.map",
     "static/js/2.897734dc.chunk.js.LICENSE.txt": "/sunnyside-agency/static/js/2.897734dc.chunk.js.LICENSE.txt",
+    "static/media/Header.scss": "/sunnyside-agency/static/media/image-header.9167cda0.jpg",
     "static/media/FlexiImg.scss": "/sunnyside-agency/static/media/image-gallery-sugarcubes.09b72f4f.jpg",
     "static/media/TextImgContainer.scss": "/sunnyside-agency/static/media/image-photography.104cf40b.jpg",
-    "static/media/Header.scss": "/sunnyside-agency/static/media/image-header.9167cda0.jpg",
     "static/media/logo.4271b899.svg": "/sunnyside-agency/static/media/logo.4271b899.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.5ea9a727.js",
     "static/js/2.897734dc.chunk.js",
-    "static/css/main.3d9c3a20.chunk.css",
+    "static/css/main.5ed16311.chunk.css",
     "static/js/main.e168de0f.chunk.js"
   ]
 }
