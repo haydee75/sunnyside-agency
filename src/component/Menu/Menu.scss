@@ -30,7 +30,6 @@ nav.Menu {
         .primary {
           color: var(--black-color);
           font-family: var(--font-fraunces);
-          font-weight: bold;
           font-size: 15px;
           text-decoration: none;
           text-transform: uppercase;
@@ -39,6 +38,12 @@ nav.Menu {
           columns: var(--black-color);
           padding: 15px 30px;
           line-height: 25px;
+          transition: 0.2s ease;
+
+          &:hover {
+            background: #77cdf5;
+            color: var(--white-color);
+          }
         }
       }
     }

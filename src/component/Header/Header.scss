@@ -12,5 +12,18 @@ header {
 
   h2 {
     margin-top: 105px;
+    position: relative;
+
+    &:before {
+      content: url("../../images/icon-arrow-down.svg");
+      position: absolute;
+      right: 45%;
+      top: 135px;
+
+      @media only screen and (min-width: 750px) {
+        right: 49%;
+        top: 200px;
+      }
+    }
   }
 }
